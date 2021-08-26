@@ -1,0 +1,360 @@
+/* line 1, ../sass/index.scss */
+body {
+  height: 100%;
+  background: url("../assets/images/second-bg.jpg") top left repeat-x #95bdcb;
+  overflow: hidden;
+}
+/* line 5, ../sass/index.scss */
+body .fullWrapper {
+  height: 100%;
+  margin: auto;
+}
+/* line 9, ../sass/index.scss */
+body .fullWrapper header {
+  width: 1100px;
+  height: 220px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/header.jpg");
+  background-position: top center;
+  box-sizing: border-box;
+  position: relative;
+}
+/* line 18, ../sass/index.scss */
+body .fullWrapper header .controls-wrapper {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+/* line 22, ../sass/index.scss */
+body .fullWrapper header .controls-wrapper .controls {
+  display: flex;
+  width: 960px;
+  margin: auto;
+  align-items: flex-end;
+}
+/* line 27, ../sass/index.scss */
+body .fullWrapper header .controls-wrapper .controls nav {
+  padding: 30px 20px 2px 15px;
+  border-radius: 12px;
+  border: 5px solid #E8E8E8;
+  background-color: white;
+}
+/* line 32, ../sass/index.scss */
+body .fullWrapper header .controls-wrapper .controls nav a {
+  text-decoration: none;
+  color: #1B22E4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+/* line 39, ../sass/index.scss */
+body .fullWrapper header .controls-wrapper .controls .cart-btn {
+  width: 156px;
+  height: 41px;
+  margin-left: 20px;
+}
+/* line 48, ../sass/index.scss */
+body .fullWrapper main {
+  width: 960px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 16px;
+  border: 6px solid #E8E8E8;
+  background-color: white;
+  box-sizing: border-box;
+  font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+  margin-top: 1px;
+}
+/* line 58, ../sass/index.scss */
+body .fullWrapper main .info-block {
+  display: flex;
+}
+/* line 60, ../sass/index.scss */
+body .fullWrapper main .info-block .info {
+  width: 725px;
+}
+/* line 62, ../sass/index.scss */
+body .fullWrapper main .info-block .info .title {
+  font-weight: bolder;
+  margin-top: 30px;
+  color: #444;
+}
+/* line 67, ../sass/index.scss */
+body .fullWrapper main .info-block .info .content {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+/* line 75, ../sass/index.scss */
+body .fullWrapper main .soc {
+  width: 210px;
+}
+/* line 77, ../sass/index.scss */
+body .fullWrapper main .soc .item {
+  display: flex;
+}
+/* line 79, ../sass/index.scss */
+body .fullWrapper main .soc .item .google {
+  margin-top: 20px;
+}
+/* line 81, ../sass/index.scss */
+body .fullWrapper main .soc .item .google select {
+  padding-right: 20px;
+}
+/* line 84, ../sass/index.scss */
+body .fullWrapper main .soc .item .google .google-info {
+  display: flex;
+  font-family: arial;
+  margin-top: 5px;
+}
+/* line 88, ../sass/index.scss */
+body .fullWrapper main .soc .item .google .google-info span {
+  color: #666;
+  font-size: 11px;
+  white-space: nowrap;
+}
+/* line 95, ../sass/index.scss */
+body .fullWrapper main .soc .item .twitter {
+  display: flex;
+  background-color: #1b95e0;
+  border-radius: 4px;
+  height: 28px;
+  padding: 0px 10px;
+  font-size: 13px;
+  line-height: 26px;
+  color: white;
+  align-items: center;
+  margin-top: 10px;
+}
+/* line 106, ../sass/index.scss */
+body .fullWrapper main .soc .item .twitter span {
+  font-weight: 500;
+  white-space: nowrap;
+}
+/* line 109, ../sass/index.scss */
+body .fullWrapper main .soc .item .twitter span b {
+  font-size: 13px;
+  line-height: 26px;
+}
+/* line 114, ../sass/index.scss */
+body .fullWrapper main .soc .item .twitter img {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+/* line 123, ../sass/index.scss */
+body .fullWrapper main .partners {
+  border-bottom: solid 1px #d0d0d0;
+  border-top: solid 1px #d0d0d0;
+  display: flex;
+  margin-top: 30px;
+}
+/* line 128, ../sass/index.scss */
+body .fullWrapper main .partners .col {
+  display: flex;
+  flex-direction: column;
+  border-right: solid 1px #d0d0d0;
+  width: 235px;
+}
+/* line 134, ../sass/index.scss */
+body .fullWrapper main .partners .col .item {
+  height: 161px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 141, ../sass/index.scss */
+body .fullWrapper main .partners .col .item:nth-child(n+2) {
+  border-top: solid 1px #d0d0d0;
+}
+/* line 144, ../sass/index.scss */
+body .fullWrapper main .partners .col .item img {
+  margin-top: 10px;
+}
+/* line 147, ../sass/index.scss */
+body .fullWrapper main .partners .col .item .link {
+  font: 8pt Verdana,Tahoma,Arial,Helvetica,sans-serif;
+  bottom: 30px;
+  font-size: 12pt;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  color: #1778C7;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  height: 45px;
+}
+/* line 159, ../sass/index.scss */
+body .fullWrapper main .partners .col .item .link:hover {
+  color: #AA0F03;
+}
+/* line 167, ../sass/index.scss */
+body .fullWrapper main .purchase-info {
+  border-top: 5px ridge #003399;
+  border-bottom: 5px ridge #003399;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 10pt;
+  font: 9pt Verdana,Tahoma,Arial,Helvetica,sans-serif;
+  padding: 10px 0px;
+}
+/* line 175, ../sass/index.scss */
+body .fullWrapper main .purchase-info a {
+  color: #1778C7;
+}
+/* line 182, ../sass/index.scss */
+body .fullWrapper main .products .block .block-title {
+  font-size: 26pt;
+  color: #444;
+  font-weight: bold;
+  text-align: center;
+  margin: 12px 0px;
+}
+/* line 189, ../sass/index.scss */
+body .fullWrapper main .products .block .block-info {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+/* line 192, ../sass/index.scss */
+body .fullWrapper main .products .block .block-info a {
+  color: #1778C7;
+}
+/* line 197, ../sass/index.scss */
+body .fullWrapper main .products .block .items {
+  margin-top: 10px;
+}
+/* line 199, ../sass/index.scss */
+body .fullWrapper main .products .block .items .row {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+/* line 203, ../sass/index.scss */
+body .fullWrapper main .products .block .items .row .item {
+  width: 220px;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #cddee2;
+  font-size: 11pt;
+  padding: 15px;
+  margin: 0px 2.5px 0px 2.5px;
+}
+/* line 213, ../sass/index.scss */
+body .fullWrapper main .products .block .items .row .item .name {
+  font-size: 14pt;
+  color: #000000;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+/* line 224, ../sass/index.scss */
+body .fullWrapper main .products .block .items .row .item .price-title {
+  font-weight: bold;
+  font-size: 11pt;
+  margin-top: 5px;
+}
+/* line 229, ../sass/index.scss */
+body .fullWrapper main .products .block .items .row .item .price {
+  font-size: 11pt;
+  color: #f20d0d;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  margin-top: 5px;
+}
+/* line 238, ../sass/index.scss */
+body .fullWrapper main .products .block .items .row .item .contact {
+  font-size: 11pt;
+  color: #f20d0d;
+  font-weight: bold;
+}
+/* line 251, ../sass/index.scss */
+body .crossing-popup-wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 1;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* line 261, ../sass/index.scss */
+body .crossing-popup-wrapper .crossing-popup {
+  width: 650px;
+  background-image: url("../assets/images/white-background.png");
+  background-position-y: bottom;
+  border-radius: 12px;
+  margin: auto;
+  padding: 60px;
+  text-align: center;
+  position: relative;
+}
+/* line 271, ../sass/index.scss */
+body .crossing-popup-wrapper .crossing-popup .popup-header {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+/* line 277, ../sass/index.scss */
+body .crossing-popup-wrapper .crossing-popup .popup-info {
+  display: flex;
+  flex-direction: column;
+  color: #769cc2;
+}
+/* line 283, ../sass/index.scss */
+body .crossing-popup-wrapper .crossing-popup .popup-devider {
+  width: 100px;
+  height: 3px;
+  background: #265a8c;
+  margin: auto;
+  margin-bottom: 15px;
+}
+/* line 291, ../sass/index.scss */
+body .crossing-popup-wrapper .crossing-popup .popup-button {
+  width: 300px;
+  margin: auto;
+  padding: 10px;
+  color: white;
+  background: #265a8c;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+}
+/* line 303, ../sass/index.scss */
+body .crossing-popup-wrapper .crossing-popup .popup-large-text {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+/* line 309, ../sass/index.scss */
+body .crossing-popup-wrapper .crossing-popup .popup-logo {
+  margin-bottom: 20px;
+}
+/* line 311, ../sass/index.scss */
+body .crossing-popup-wrapper .crossing-popup .popup-logo img {
+  width: 45%;
+  margin-bottom: 45px;
+}
+/* line 317, ../sass/index.scss */
+body .crossing-popup-wrapper .crossing-popup .lt-cards, body .crossing-popup-wrapper .crossing-popup .rt-cards {
+  position: absolute;
+  top: 100px;
+  width: 350px;
+}
+/* line 323, ../sass/index.scss */
+body .crossing-popup-wrapper .crossing-popup .lt-cards {
+  left: -120px;
+}
+/* line 326, ../sass/index.scss */
+body .crossing-popup-wrapper .crossing-popup .rt-cards {
+  right: -120px;
+}

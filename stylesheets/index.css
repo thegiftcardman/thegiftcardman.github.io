@@ -358,3 +358,17 @@ body .crossing-popup-wrapper .crossing-popup .lt-cards {
 body .crossing-popup-wrapper .crossing-popup .rt-cards {
   right: -120px;
 }
+/* line 333, ../sass/index.scss */
+body .devider {
+  width: 100%;
+  border-top: 5px ridge #003399;
+  margin-top: 20px;
+}
+/* line 339, ../sass/index.scss */
+body .double-devider {
+  height: 23px;
+  width: 100%;
+  border-top: 5px ridge #003399;
+  border-bottom: 5px ridge #003399;
+  margin-top: 20px;
+}

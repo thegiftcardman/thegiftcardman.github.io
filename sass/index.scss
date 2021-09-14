@@ -329,4 +329,18 @@ body {
 
     }
   }
+
+  .devider {
+    width: 100%;
+    border-top: 5px ridge rgb(0, 51, 153);
+    margin-top: 20px
+  }
+
+  .double-devider {
+    height: 23px;
+    width: 100%;
+    border-top: 5px ridge rgb(0, 51, 153);
+    border-bottom: 5px ridge rgb(0, 51, 153);
+    margin-top: 20px
+  }
 }
